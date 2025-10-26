@@ -1,0 +1,33 @@
+<div class="master">
+  <div class="a"></div>
+  <div class="b"></div>
+  <div class="c"></div>  
+</div>
+<style>
+  body {
+    background: #62306D;
+  }
+  .master {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .master div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D border-box;
+    position: relative;
+  }
+  .a,
+  .c {
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    top: 42px
+  }
+  .b {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    bottom: 58px;
+  }
+</style>
